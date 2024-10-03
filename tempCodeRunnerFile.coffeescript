@@ -3,6 +3,11 @@ import os
 
 def organize_files(directory):
     # Detect the operating system using os.name
+    assert os.path.exist(directory),"Invalid path do not exist"
+    assert os.path.isdir(directory),"not a directory"
+    """
+    
+    """
     is_windows = os.name == 'nt'
     # Define file categories and corresponding file extensions
     file_types = {

@@ -25,42 +25,42 @@
 
 #------------------------------------------------------
 
-# import tkinter as tk
-# import os
-# import File_organizer as of  # Assuming organize_files() is in File_organizer.py
+import tkinter as tk
+import os
+import File_organizer as of  # Assuming organize_files() is in File_organizer.py
 
-# root = tk.Tk()
-# root.title("File Organizer")
-# root.geometry("400x250")
+root = tk.Tk()
+root.title("File Organizer")
+root.geometry("400x250")
 
-# def submit_function():
-#     address = entry.get()
+def submit_function():
+    address = entry.get()
 
-#     print("Address is:\t", address)
+    print("Address is:\t", address)
     
-#     # Check if the path exists
-#     if os.path.exists(address):
-#         try:
-#             # Call the organize_files function from File_organizer
-#             of.organize_files(address)
-#             print("Files organized successfully!")
-#         except Exception as e:
-#             print(f"Error organizing files: {e}")
-#     else:
-#         print("Directory does not exist.")
+    # Check if the path exists
+    if os.path.exists(address):
+        try:
+            # Call the organize_files function from File_organizer
+            of.organize_files(address)
+            print("Files organized successfully!")
+        except Exception as e:
+            print(f"Error organizing files: {e}")
+    else:
+        print("Directory does not exist.")
 
-# # Create UI elements
-# label = tk.Label(root, text="Enter Directory Address:")
-# label.pack(pady=20)
+# Create UI elements
+label = tk.Label(root, text="Enter Directory Address:")
+label.pack(pady=20)
 
-# entry = tk.Entry(root, width=30)
-# entry.pack(pady=5)
+entry = tk.Entry(root, width=30)
+entry.pack(pady=5)
 
-# button = tk.Button(root, text="Submit", command=submit_function)
-# button.pack(pady=10)
+button = tk.Button(root, text="Submit", command=submit_function)
+button.pack(pady=10)
 
-# # Run the Tkinter event loop
-# root.mainloop()
+# Run the Tkinter event loop
+root.mainloop()
 
 #-----------------------------------------------------------
 
@@ -120,6 +120,10 @@
 #     print("Files have been organized!")#Example usage
 
 
-x=10
-assert x>5 , "x should be greate than 5!"
-assert x>15 ,"x should be greater than 15!"
+# assert function
+
+# x=10
+# assert x>5 , "x should be greate than 5!"
+# assert x>15 ,"x should be greater than 15!" # this will raise AsserstionError
+
+# raise keyword
