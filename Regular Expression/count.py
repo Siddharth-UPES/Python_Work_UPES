@@ -19,10 +19,10 @@ def counter():
     return increment
 
 c1=counter()
-c1()
-c1()
+c1() #1
+c1() #2
 
 c2=counter()
 
-c2()
-c1()
+c2() #1
+c1() #3

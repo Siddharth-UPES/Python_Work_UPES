@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+__pychache__
+
+
+**/build
+**/dist
+
+
+secrets.txt

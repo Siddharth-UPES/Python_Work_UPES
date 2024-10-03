@@ -1,0 +1,40 @@
+# Regular Expressions
+
+9889999999 There was an error when trying to load the live version of the website. This could either be due to a server outage,
+ or because of your network connection. Because of this,9889999999 you are now running a local-only (offline) version.
+ You will still be able to use all the base function of the applications like before, but some features that require a 
+ connection with the server might not work.Feel free to 9889999999 refresh the page and try again later, the offline version will 
+ remain  available to you.9889999999
+ If the error persists, and you believe this to be an error with regex101, 
+ please open an issue here: https://github.com/firasdib/Regex101/issues
+
+prateek.gautam@ddn.upes.ac.in
+
+demo@gmail.com
+
+de_mo@gmail.com
+
+1234567890gmail.com
+
+9889999999
+
+988 999 9999
+
+988-999-9999
+
+(988)-999-9999
+
+
+
+https*//(\w+).\w+/(\w+)/(\w+)
+
+https://github.com/upessocs/B3B4
+http://github.om/upessocs/B3B4
+https://www.github.com/upessocs/B3B4
+https://github.com/upessocs/B3B4?login=sid
+https://github.com/upessocs/B4
+
+
+ram, 29,
+shyam, 32,
+xyz, 27,
